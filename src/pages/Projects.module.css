@@ -1,0 +1,103 @@
+.projectsContainer {
+  @apply min-h-screen bg-gradient-to-br from-navy-blue to-light-blue py-16;
+}
+
+.pageTitle {
+  @apply text-4xl font-bold text-center text-white mb-12 font-heading;
+}
+
+.projectGrid {
+  @apply grid gap-8 transition-opacity duration-300;
+}
+
+.projectCard {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg overflow-hidden cursor-pointer transition-all duration-300;
+}
+
+.projectImageContainer {
+  @apply relative overflow-hidden;
+}
+
+.projectImage {
+  @apply w-full h-48 object-cover transition-transform duration-300;
+}
+
+.projectOverlay {
+  @apply absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center p-4 opacity-0 transition-opacity duration-300;
+}
+
+.projectCard:hover .projectOverlay {
+  @apply opacity-100;
+}
+
+.projectCard:hover .projectImage {
+  @apply scale-110;
+}
+
+.projectTitle {
+  @apply text-xl font-semibold text-white mb-2;
+}
+
+.projectDescription {
+  @apply text-sm text-gray-300 text-center;
+}
+
+.projectTags {
+  @apply flex flex-wrap gap-2 p-4;
+}
+
+.projectTag {
+  @apply bg-gold text-navy-blue px-2 py-1 rounded-full text-xs;
+}
+
+.modalOverlay {
+  @apply fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50;
+}
+
+.modalContent {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto relative;
+}
+
+.closeButton {
+  @apply absolute top-4 right-4 text-white text-xl hover:text-gold transition-colors duration-300;
+}
+
+.modalTitle {
+  @apply text-3xl font-semibold text-white mb-4;
+}
+
+.modalImage {
+  @apply w-full h-64 object-cover rounded-lg mb-6;
+}
+
+.modalDescription {
+  @apply text-gray-300 mb-6;
+}
+
+.modalSection {
+  @apply mb-6;
+}
+
+.modalSubtitle {
+  @apply text-xl font-semibold text-white mb-2;
+}
+
+.modalTags {
+  @apply flex flex-wrap gap-2;
+}
+
+.modalTag {
+  @apply bg-gold text-navy-blue px-3 py-1 rounded-full text-sm;
+}
+
+.modalText {
+  @apply text-gray-300;
+}
+
+.modalLinks {
+  @apply flex justify-between mt-8;
+}
+
+.modalLink {
+  @apply flex items-center bg-gold text-navy-blue px-4 py-2 rounded hover:bg-yellow-400 transition-colors duration-300;
+}

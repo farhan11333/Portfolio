@@ -1,0 +1,55 @@
+.skillsContainer {
+  @apply min-h-screen bg-gradient-to-br from-navy-blue to-light-blue py-16;
+}
+
+.pageTitle {
+  @apply text-4xl font-bold text-center text-white mb-12 font-heading;
+}
+
+.sectionTitle {
+  @apply text-2xl font-semibold text-white mb-4 text-center;
+}
+
+.skillCategory {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-lg;
+}
+
+.categoryIcon {
+  @apply text-3xl text-gold mr-4;
+}
+
+.categoryTitle {
+  @apply text-xl font-semibold text-white;
+}
+
+.skillItem {
+  @apply flex items-center;
+}
+
+.skillBar {
+  @apply w-full bg-white bg-opacity-20 rounded-full h-2.5 mr-2;
+}
+
+.skillProgress {
+  @apply bg-gold h-2.5 rounded-full;
+}
+
+.skillName {
+  @apply text-sm font-medium text-white;
+}
+
+.softSkillCard {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-4 rounded-lg text-center transition-all duration-300;
+}
+
+.softSkillIcon {
+  @apply text-4xl text-gold mb-2 inline-block;
+}
+
+.softSkillName {
+  @apply text-lg font-semibold text-white mb-2;
+}
+
+.softSkillDescription {
+  @apply text-sm text-gray-300;
+}

@@ -1,0 +1,71 @@
+.experienceContainer {
+  @apply min-h-screen bg-gradient-to-br from-navy-blue to-light-blue py-16;
+}
+
+.pageTitle {
+  @apply text-4xl font-bold text-center text-white mb-12 font-heading;
+}
+
+.jobCard {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-lg cursor-pointer transition-all duration-300;
+}
+
+.selectedJob {
+  @apply ring-2 ring-gold;
+}
+
+.jobTitle {
+  @apply text-xl font-semibold text-white mb-2;
+}
+
+.jobCompany {
+  @apply text-gray-300 mb-2;
+}
+
+.jobDuration {
+  @apply flex items-center text-gray-400;
+}
+
+.jobDetailsContainer {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-lg min-h-[400px] flex items-center justify-center;
+}
+
+.jobDetailsPlaceholder {
+  @apply text-center;
+}
+
+.jobDetails {
+  @apply w-full;
+}
+
+.jobDetailsTitle {
+  @apply text-2xl font-semibold text-white mb-2;
+}
+
+.jobDetailsCompany {
+  @apply text-xl text-gray-300 mb-2;
+}
+
+.jobDetailsDuration {
+  @apply flex items-center text-gray-400 mb-4;
+}
+
+.responsibilitiesTitle {
+  @apply text-lg font-semibold text-white mb-2;
+}
+
+.responsibilitiesList {
+  @apply list-disc list-inside space-y-2 mb-4 text-gray-300;
+}
+
+.technologiesTitle {
+  @apply text-lg font-semibold text-white mb-2;
+}
+
+.technologiesList {
+  @apply flex flex-wrap gap-2;
+}
+
+.technologyTag {
+  @apply bg-gold text-navy-blue px-3 py-1 rounded-full text-sm;
+}

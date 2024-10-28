@@ -1,0 +1,55 @@
+.aboutContainer {
+  @apply min-h-screen bg-gradient-to-br from-navy-blue to-light-blue py-16;
+}
+
+.pageTitle {
+  @apply text-4xl font-bold text-center text-white mb-12 font-heading;
+}
+
+.imageContainer {
+  @apply relative overflow-hidden rounded-lg shadow-xl;
+}
+
+.profileImage {
+  @apply w-full h-auto object-cover transition-transform duration-300 hover:scale-105;
+}
+
+.sectionTitle {
+  @apply text-2xl font-semibold text-white mb-4;
+}
+
+.sectionText {
+  @apply text-gray-200 leading-relaxed;
+}
+
+.valueCard {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-4 rounded-lg flex items-center space-x-4 transition-all duration-300;
+}
+
+.valueIcon {
+  @apply text-2xl text-gold;
+}
+
+.valueTitle {
+  @apply text-white font-semibold;
+}
+
+.educationCard {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-lg transition-all duration-300;
+}
+
+.educationIcon {
+  @apply text-3xl text-gold mr-4 mt-1;
+}
+
+.educationDegree {
+  @apply text-xl font-semibold text-white;
+}
+
+.educationInstitution {
+  @apply text-gray-300;
+}
+
+.educationYear {
+  @apply text-gray-400;
+}
