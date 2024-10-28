@@ -37,7 +37,7 @@ const Skills = () => {
           <SkillCategory
             title="Cloud Solutions"
             icon={<FaCloud />}
-            skills={['AWS', 'Azure', 'S3', 'Cognito', 'Amplify']}
+            skills={['AWS', 'Azure', 'S3', 'Cognito', 'Amplify','SQS','SES']}
             delay={0.8}
           />
           <SkillCategory

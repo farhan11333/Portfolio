@@ -129,7 +129,7 @@ const JobDetails = ({ job }) => (
 
 const experienceData = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company: "Reporteq Solutions, Lahore",
     duration: "2021 - Present",
     responsibilities: [
@@ -138,7 +138,7 @@ const experienceData = [
       "Integrated Stripe payment gateway for secure transactions",
       "Collaborated with cross-functional teams to deliver high-quality software solutions",
     ],
-    technologies: ["Angular", "React.js", "AWS", "Stripe", "Node.js"]
+    technologies: ["Angular", "React.js", "AWS", "Stripe", "Node.js",".NET", "C#","Azure"]
   },
   {
     title: "Associate Software Engineer",
