@@ -28,7 +28,7 @@ const About = () => {
             transition={{ delay: 0.4 }}
             className={styles.imageContainer}
           >
-            <img src="../../assets/skills.png" alt="Farhan Ali" className={styles.profileImage} />
+            <img src="/assets/skills.png" alt="Farhan Ali" className={styles.profileImage} />
           </motion.div>
           
           <motion.div
