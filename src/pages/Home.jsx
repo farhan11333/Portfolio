@@ -13,7 +13,7 @@ const Home = () => {
     >
       <div className="max-w-4xl w-full space-y-8 text-center">
         <motion.img
-          src="/public/assets/farhan.jpg"
+          src="/assets/farhan.jpg"
           alt="Farhan Ali"
           className="w-48 h-48 rounded-full mx-auto border-4 border-gold shadow-lg"
           initial={{ scale: 0 }}
