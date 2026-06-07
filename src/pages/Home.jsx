@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Home = () => {
@@ -52,14 +51,13 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <Link
-            to="./src/assets/Farhan_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a
+            href="/assets/Farhan_Resume.pdf"
+            download="Farhan_Ali_Resume.pdf"
             className="inline-block bg-gold text-navy-blue px-8 py-3 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
           >
             Download Resume
-          </Link>
+          </a>
         </motion.div>
       </div>
     </motion.div>
